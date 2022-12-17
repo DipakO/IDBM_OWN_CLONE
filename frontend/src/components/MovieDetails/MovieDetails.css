@@ -1,0 +1,40 @@
+.singleMovieImage{
+    position: absolute;
+    left: 1rem;
+    top: 14rem;
+    object-fit: cover;
+}
+
+.BackImage{
+    position: relative;
+    left: 7rem;
+    top: 1rem;
+    object-fit: cover;
+}
+
+.movieTypeBtn{
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 10rem;
+    margin: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor:grab;
+}
+
+
+
+.MovieLink{
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 20px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.pLang{
+    color: white;
+    margin-top: 1.5rem;
+}

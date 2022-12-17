@@ -1,0 +1,98 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+#head{
+    margin-left: 6rem;
+    width: 90%;
+    background-color: rgb(32,32,45);
+    padding: 0.8rem;
+    margin-top: -3.8rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: end;
+}
+
+.homebtn{
+    background-color: rgb(32,32,45);
+    margin-top: 3.2rem;
+    padding: 17px;
+    border: none;
+    margin-left: 20px;
+}
+
+body{
+    background-color: rgb(26,26,36);
+
+}
+
+.posterImage{
+    height: 500px;
+}
+.posterImage > img{
+    margin: auto;
+    display: flex;
+    width: 80rem;
+}
+
+.slide{
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+
+.posterImage_overlay{
+    position: absolute;
+    padding: 2rem;
+    bottom: 0px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+    color: white;
+}
+
+.posterImage_overlay:hover{
+    opacity: 1;
+    color: gold;
+}
+
+.posterImage_title{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage_runtime{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage_rating{
+    margin-left: 3rem;
+}
+
+.posterImage-description{
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0,25rem;
+    display: flex;
+    text-align: left;
+    width: 70%;
+}
+
+.text_annimation{
+    font-style: italic;
+    color: hotpink;
+}
+
+/* .clickBtn{
+    position: relative;
+    left: 15rem;
+    bottom: 8rem;
+} */
